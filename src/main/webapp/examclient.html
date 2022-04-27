@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Online Exam Client</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2 style="text-align:center">Round I Examination</h2>
+<h3 style="text-align:center">Operating System</h3>
+<h3>
+Choose the correct answer.<br> 
+You will given 5 marks for each correct answer.<br>
+Get more than 50% to pass. </h3>
+<hr/>
+<div class="container">
+<form name="examForm" method="post" action="ExamServer.jsp">
+  <div class="content">
+    <div class="question">1. In Operating Systems, which of the following is/are CPU scheduling algorithms?</div>
+    <div class="choice"><input type="radio" name="1" value="Priority">Priority</div>
+    <div class="choice"><input type="radio" name="1" value="Round Robin">Round Robin</div>
+    <div class="choice"><input type="radio" name="1" value="Shortest Job First">Shortest Job First</div>
+    <div class="choice"><input type="radio" name="1" value="All of the mentioned">All of the mentioned</div>
+  </div>
+  <div class="content">
+    <div class="question">2. CPU scheduling is the basis of</div>
+    <div class="choice"><input type="radio" name="2" value="multiprogramming operating systems">multiprogramming operating systems</div>
+    <div class="choice"><input type="radio" name="2" value="larger memory sized systems">larger memory sized systems</div>
+    <div class="choice"><input type="radio" name="2" value="multiprocessor systems">multiprocessor systems</div>
+    <div class="choice"><input type="radio" name="2" value="none of the mentioned">none of the mentioned</div>
+  </div>
+  <div class="content">
+    <div class="question">3. In operating system, each process has its own </div>
+    <div class="choice"><input type="radio" name="3" value="open files">open files</div>
+    <div class="choice"><input type="radio" name="3" value="pending alarms, signals, and signal handlers">pending alarms, signals, and signal handlers</div>
+    <div class="choice"><input type="radio" name="3" value="address space and global variables">address space and global variables</div>
+    <div class="choice"><input type="radio" name="3" value="all of the mentioned">all of the mentioned</div>
+  </div>
+  <div class="content">
+    <div class="question">4. When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to the </div>
+    <div class="choice"><input type="radio" name="4" value="Terminated state">Terminated state</div>
+    <div class="choice"><input type="radio" name="4" value="Suspended state">Suspended state</div>
+    <div class="choice"><input type="radio" name="4" value="Running state">Running state</div>
+    <div class="choice"><input type="radio" name="4" value="Ready state">Ready state</div>
+  </div>
+  <div class="content">
+    <div class="question">5. The main memory accommodates </div>
+    <div class="choice"><input type="radio" name="5" value="cpu">cpu</div>
+    <div class="choice"><input type="radio" name="5" value="user processess">user processes</div>
+    <div class="choice"><input type="radio" name="5" value="operating system">operating system</div>
+    <div class="choice"><input type="radio" name="5" value="all of the mentioned">all of the mentioned</div>
+  </div>
+  <input class="choice" type="submit" value="Check Your Result"/>
+</div>
+</form>
+</body>
+</html>

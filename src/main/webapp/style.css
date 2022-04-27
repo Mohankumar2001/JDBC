@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+body {
+	background: #101010;
+  color:#f9fcf5;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  background: #000044;
+  height: auto;
+  width: 500px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.choice {
+  background: tomato;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.choice:hover {
+  background: green;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px 10px 10px 10px;
+}

@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Online Exam Client</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2 style="text-align:center">Round II Examination</h2>
+<h3 style="text-align:center">Computer Networks</h3>
+<h3>
+Choose the correct answer.<br> 
+You will given 5 marks for each correct answer.<br>
+Get more than 50% to pass. </h3>
+<hr/>
+<div class="container">
+<form name="examForm" method="post" action="ExamServer2.jsp">
+  <div class="content">
+    <div class="question">1. The network layer is concerned with __________ of data. </div>
+    <div class="choice"><input type="radio" name="1" value="bits">bits</div>
+    <div class="choice"><input type="radio" name="1" value="frames">frames</div>
+    <div class="choice"><input type="radio" name="1" value="packets">packets</div>
+    <div class="choice"><input type="radio" name="1" value="bytes">bytes</div>
+  </div>
+  <div class="content">
+    <div class="question">2. Which one of the following is not a function of network layer? </div>
+    <div class="choice"><input type="radio" name="2" value="routing">routing</div>
+    <div class="choice"><input type="radio" name="2" value="inter-networking">inter-networking</div>
+    <div class="choice"><input type="radio" name="2" value="congestion control">congestion control</div>
+    <div class="choice"><input type="radio" name="2" value="error control">error control</div>
+  </div>
+  <div class="content">
+    <div class="question">3. A 4 byte IP address consists of __________ </div>
+    <div class="choice"><input type="radio" name="3" value="only network address">only network address</div>
+    <div class="choice"><input type="radio" name="3" value="only host address">only host address</div>
+    <div class="choice"><input type="radio" name="3" value="network address & host address">network address & host address</div>
+    <div class="choice"><input type="radio" name="3" value="network address & MAC address">network address & MAC address</div>
+  </div>
+  <div class="content">
+    <div class="question">4. In virtual circuit network each packet contains ___________ </div>
+    <div class="choice"><input type="radio" name="4" value="full source and destination address">full source and destination address</div>
+    <div class="choice"><input type="radio" name="4" value="a short VC number">a short VC number</div>
+    <div class="choice"><input type="radio" name="4" value="only source address">only source address</div>
+    <div class="choice"><input type="radio" name="4" value="only destination address">only destination address</div>
+  </div>
+  <div class="content">
+    <div class="question">5. Which of the following routing algorithms can be used for network layer design? </div>
+    <div class="choice"><input type="radio" name="5" value="shortest path algorithm">shortest path algorithm</div>
+    <div class="choice"><input type="radio" name="5" value="distance vector routing">distance vector routing</div>
+    <div class="choice"><input type="radio" name="5" value="link state routing">link state routing</div>
+    <div class="choice"><input type="radio" name="5" value="all of the mentioned">all of the mentioned</div>
+  </div>
+  <input class="choice" type="submit" value="Check Your Result"/>
+</div>
+</form>
+</body>
+</html>
